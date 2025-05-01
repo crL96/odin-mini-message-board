@@ -18,5 +18,13 @@ router.get("/", (req, res) => {
     res.render("index", { messages: messages });
 });
 
+router.get("/new", (req, res) => {
+    res.render("form");
+});
+
+router.post("/new", (req, res) => {
+    
+});
+
 
 module.exports = router;
