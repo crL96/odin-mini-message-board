@@ -10,8 +10,8 @@
     <h1>Messages</h1>
     <a href="/new" class="button">Send a message</a>
     <ul>
-        <% messages.forEach(message => { %>
-            <%- include("message", {message: message}) %>
+        <% messages.forEach((message, index) => { %>
+            <%- include("message", {message: message, index: index }) %>
         <% }); %>
     </ul>
 </body>

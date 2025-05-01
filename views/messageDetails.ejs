@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Messageboard</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <h1>Message Details</h1>
+    <div class="message">
+        <h3>Author: <%= message.user %></h3>
+        <p>Message: <%= message.text %></p>
+        <p class="dateAdded">Sent: <%= message.added %></p>
+        <a href="/" class="button smallBtn">Go back</a>
+    </div>    
+</body>
+</html>
