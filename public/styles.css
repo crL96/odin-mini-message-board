@@ -1,0 +1,99 @@
+/* CSS RESET */
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+  
+* {
+    margin: 0;
+}
+  
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+  
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+  
+input, button, textarea, select {
+    font: inherit;
+}
+  
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+  
+p {
+    text-wrap: pretty;
+}
+h1, h2, h3, h4, h5, h6 {
+    text-wrap: balance;
+}
+  
+#root, #__next {
+    isolation: isolate;
+}
+
+table {
+    border-collapse: collapse;
+}
+tr {
+    border-bottom: 1px solid #ccc;
+}
+th, td {
+    text-align: left;
+    padding: 4px;
+}
+/* END OF RESET */
+
+body {
+    text-align: center;
+    font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+h1 {
+    padding: 2rem;
+}
+
+a {
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+#messageForm,
+.message {
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    border: 2px solid black;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+#messageForm > legend,
+#messageForm > input,
+#messageForm > textarea {
+    margin-bottom: 1rem;
+}
+
+.dateAdded {
+    font-size: 0.9em;
+    color: rgb(85, 85, 85);
+}
+
+.message > * {
+    margin-bottom: 0.8rem;
+}
