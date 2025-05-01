@@ -23,7 +23,12 @@ router.get("/new", (req, res) => {
 });
 
 router.post("/new", (req, res) => {
-    
+    messages.push( {
+        text: req.body.message,
+        user: req.body.name,
+        added: new Date()
+    });
+    res.redirect("/");
 });
 
 
