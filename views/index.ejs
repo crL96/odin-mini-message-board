@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Messages</h1>
-    <a href="/new">Send a message</a>
+    <a href="/new" class="button">Send a message</a>
     <ul>
         <% messages.forEach(message => { %>
             <%- include("message", {message: message}) %>

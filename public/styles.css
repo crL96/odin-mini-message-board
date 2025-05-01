@@ -67,11 +67,6 @@ h1 {
     padding: 2rem;
 }
 
-a {
-    font-size: 1.5rem;
-    padding: 1rem;
-}
-
 #messageForm,
 .message {
     margin: 1rem auto;
@@ -96,4 +91,22 @@ a {
 
 .message > * {
     margin-bottom: 0.8rem;
+}
+
+.button {
+    border: 2px solid black;
+    border-radius: 1rem;
+    color: black;
+    font-size: 1.5rem;
+    padding: 0.7rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
 }
