@@ -11,6 +11,11 @@ A basic message board website where users can read and send messages.
 Nothing special in terms of content, just enough for developement purposes (setting up a server, manipulating urls, handling requests...)
 
 ## Getting Started
+
+Live build: https://odin-mini-message-board-crl96.onrender.com/
+
+### Run locally
+
 Clone the repository
 
 Navigate to the project directory: cd odin-mini-message-board
