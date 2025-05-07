@@ -25,6 +25,6 @@ Preview the website: npm run start
 Navigate to http://localhost:3000/
 
 ## Technologies Used
-Programming Languages: Javascript, HTML/EJS, CSS
+Programming Languages: Javascript, HTML/EJS, CSS, SQL
 
-Server-side Tools: NodeJS, Express, EJS
+Server-side Tools: NodeJS, Express, EJS, PostgreSQL
