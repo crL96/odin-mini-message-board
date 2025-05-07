@@ -1,6 +1,6 @@
 <li class="message">
-    <h3><%= message.user %></h3>
-    <p><%= message.text %></p>
+    <h3><%= message.username %></h3>
+    <p><%= message.message %></p>
     <p class="dateAdded"><%= message.added %></p>
-    <a href="/message-details?index=<%= index %>" class="button smallBtn">Open</a>
+    <a href="/message-details?id=<%= message.id %>" class="button smallBtn">Open</a>
 </li>
