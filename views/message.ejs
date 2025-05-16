@@ -1,6 +1,6 @@
 <li class="message">
     <h3><%= message.username %></h3>
     <p><%= message.message %></p>
-    <p class="dateAdded"><%= message.added %></p>
+    <p class="dateAdded"><%= message.added.toString().split("00:00:00")[0] %></p>
     <a href="/message-details?id=<%= message.id %>" class="button smallBtn">Open</a>
 </li>

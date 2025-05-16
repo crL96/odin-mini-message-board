@@ -11,7 +11,7 @@
     <div class="message">
         <h3>Author: <%= message.username %></h3>
         <p>Message: <%= message.message %></p>
-        <p class="dateAdded">Sent: <%= message.added %></p>
+        <p class="dateAdded">Sent: <%= message.added.toString().split("00:00:00")[0] %></p>
         <a href="/" class="button smallBtn">Go back</a>
     </div>    
 </body>
